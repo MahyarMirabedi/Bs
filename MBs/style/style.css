@@ -1,0 +1,208 @@
+* {
+    box-sizing: border-box;
+    font-family: Vazirmatn UI FD NL;
+    direction: rtl;
+}
+
+body {
+    background-color: #F19EC8;
+}
+
+h1 {
+    font-size: xx-large;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.menu {
+    display: flex;
+    background-color: #EF73C5;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: fixed;
+    padding: 15px;
+    margin-right: 25%;
+    width: 50%;
+    border: 5px double #F20C97;
+}
+
+.menu a {
+    padding: 1px 15px;
+    color: #000;
+    font-size: larger;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+
+}
+
+.menu a:hover {
+    background-color: #F20C97;
+    font-size: x-large;
+}
+/* @media (max-width: 800px) {
+    .menu{
+        
+    }
+    #salon{
+        flex: 33%;
+        max-width: 100%;
+    }
+} */
+
+#salon {
+    padding-top: 150px;
+}
+
+
+#About {
+    background-color: #EF73C5;
+    text-align: center;
+    margin: 75px;
+    padding: 45px;
+    font-size: larger;
+}
+
+.WhyUs {
+    background-color: #F553AE;
+    text-align: center;
+    margin: 75px;
+    padding: 45px;
+    font-size: larger;
+}
+
+#gallery {
+    border: dotted #F20C97 7px;
+}
+
+img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.column {
+    flex: 25%;
+    max-width: 43%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+@media (max-width: 800px) {
+    .column {
+        flex: 50%;
+        max-width: 100%;
+    }
+}
+.timeWork {
+    background-color: #EF73C5;
+    /* font-size: large; */
+}
+
+dt {
+    font-size: large;
+    font-weight: bold;
+    padding-right: 85px;
+
+}
+
+dd {
+    font-size: medium;
+    padding-right: 120px;
+    margin: auto;
+    background-color: #F19EC8;
+}
+
+#Services {
+    background-color: #F553AE;
+    width: 100%;
+    text-align: center;
+    font-size: large;
+}
+
+th {
+    background-color: #F20C97;
+}
+
+th,
+td {
+    padding: 10px;
+    border: solid #000 2px;
+    padding-right: 100px;
+    padding-left: 130px;
+}
+
+
+.container {
+    /* display: flex; */
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.container div {
+    margin: 10px;
+
+}
+input[type=text],
+input[type=tel],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #0000009f;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    cursor: pointer;
+    margin: auto;
+}
+
+input[type=submit]:hover {
+    background-color: #000;
+}
+.sing{
+    display: flex;
+    width: 100%;
+    background-color: #F20C97;
+}
+#AddTel{
+    padding-top: 75px;
+    padding-inline-start: 25px;
+    font-size: larger;
+}
+.icon {
+    width: 2%;
+}
+
+footer {
+    background-color: #EF73C5;
+    text-align: center;
+    padding: 10px;
+    border-bottom: #F20C97 solid 2px;
+}
+footer p{
+    font-size: large;
+    border-bottom: #F20C97 solid 2px;
+}
+
